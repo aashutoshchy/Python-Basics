@@ -60,5 +60,27 @@ student = {
 # print(student["name2"]) #give error
 # print(student.get("name"))
 
-student.update({"City" : "Kathmandu", "age" : 19})
-print(student)
+# student.update({"City" : "Kathmandu", "age" : 19})
+# print(student)
+
+# Practice Questions
+# Question 1
+# dict1 = {
+#     "table" : ["A Piece of furniture", "list of facts & figures"],
+#     "cat" : "A Small Animal"
+# }
+
+# print(dict1)
+
+# Question 2
+FOC = float(input("Enter marks in FOC: "))
+ISA = float(input("Enter marks in ISA: "))
+PYTHON = float(input("Enter marks in PYTHON: "))
+
+marks = {
+    "FOC" : FOC,
+    "ISA" : ISA,
+    "PYTHON" : PYTHON
+}
+
+print(marks)

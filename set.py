@@ -29,7 +29,16 @@
 set1 = {1, 2, 3, 4, 5, 6}
 set2 = {2, 4, 6, 8}
 
-print(set1.union(set2)) # Returns new value
+# print(set1.union(set2)) # Returns new value
 
 # Intersection Method
-print(set1.intersection(set2))
+# print(set1.intersection(set2))
+
+# Practice Question
+subj = {"Python", "Java", "C++", "Python", "JS", "Java", "Python", "Java", "C++", "C"}
+# print(len(subj))
+
+values = {9, "9.00", 2, 2.21}
+print(values)
+
+
